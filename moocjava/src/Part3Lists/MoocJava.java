@@ -1,4 +1,4 @@
-package com.example.moocjava;
+package Part3Lists;
 
 public class MoocJava {
     public static void main(String[] args){

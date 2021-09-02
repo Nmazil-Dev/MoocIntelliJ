@@ -1,4 +1,4 @@
-package com.example.moocjava;
+package Part3Lists;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class sum_list {
