@@ -1,6 +1,6 @@
 package Part4_Intro_OOP;
-public class account_test{
-    public static class Account {
+
+public class Account {
         private double balance;
         private String name;
         private int withdrawal;
@@ -19,7 +19,6 @@ public class account_test{
         public double balance(){
             return this.balance;
         }
-    }
     public static void main(String[] args) {
         Account artosAccount = new Account("Arto's account", 100.0);
         artosAccount.withdraw(50);
