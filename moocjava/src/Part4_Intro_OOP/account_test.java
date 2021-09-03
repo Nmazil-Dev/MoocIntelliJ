@@ -13,6 +13,9 @@ public class account_test{
         public void withdraw(int withdrawal){
             this.balance -= withdrawal;
         }
+        public void deposit(int deposit){
+            this.balance += deposit;
+        }
         public double balance(){
             return this.balance;
         }
@@ -20,6 +23,8 @@ public class account_test{
     public static void main(String[] args) {
         Account artosAccount = new Account("Arto's account", 100.0);
         artosAccount.withdraw(50);
+        System.out.println(artosAccount.balance());
+        artosAccount.deposit(200);
         System.out.println(artosAccount.balance());
     }
 }
